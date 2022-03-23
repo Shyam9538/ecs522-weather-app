@@ -13,6 +13,7 @@ class FiveDayForecast extends React.Component {
     country: "US",
     degreeType: "imperial"
   }
+  
 
   componentDidMount = () => {
     const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?${this.state.location},${this.state.country}&units=${this.state.degreeType}&APPID=e5f8ee9342a7aa4b3e39a90cf5a9e97f`;
