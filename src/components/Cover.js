@@ -20,6 +20,7 @@ const Cover = (props) => {
     <hr></hr>
 
 
+
     </div>
   )
 }
